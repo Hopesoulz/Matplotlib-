@@ -1,0 +1,17 @@
+# Zarur kutubxonalarni import qilish
+import matplotlib.pyplot as plt
+
+# Ma'lumotlar
+x = [1, 2, 3, 4, 5]
+y = [1, 4, 9, 16, 25]
+
+# Grafikni yaratish
+plt.plot(x, y)
+
+# Grafikni bezash (sarlavha, o'qlar nomlari)
+plt.title('Oddiy Grafik')
+plt.xlabel('X o\'qi')
+plt.ylabel('Y o\'qi')
+
+# Grafikni ko'rsatish
+plt.show()
